@@ -3,3 +3,17 @@ let words = ['Abuse', 'Adult', 'Agent', 'Anger', 'Apple', 'Award', 'Basis', 'Bea
 
 const allWords = words.filter((word, i, arr) => i === arr.indexOf(word)).sort();
 // console.log(allWords)
+
+function randomWord() {
+    let randIndex = Math.floor(allWords.length * Math.random());
+    return allWords[randIndex];
+}
+
+// for (let i = 0; i < 5; i++) { console.log(randomWord()) }
+
+/* To-Do:
+Entire readline structure
+    6 guesses
+    Show all past guesses and feedback
+Choose random word
+*/
