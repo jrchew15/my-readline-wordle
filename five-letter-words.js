@@ -13,7 +13,7 @@ function randomWord() {
 
 /* To-Do:
 Entire readline structure
-    6 guesses
+    6 guesses - done
     Show all past guesses and feedback
-Choose random word
+Choose random word - done
 */
