@@ -1,0 +1,27 @@
+{
+  "name": "my-wordle-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "check-guess.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "dotenv node five-letter-words.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrchew15/my-readline-wordle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrchew15/my-readline-wordle/issues"
+  },
+  "homepage": "https://github.com/jrchew15/my-readline-wordle#readme",
+  "dependencies": {
+    "sqlite3": "^5.0.8"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^6.0.0"
+  }
+}
